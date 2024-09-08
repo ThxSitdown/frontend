@@ -35,7 +35,7 @@ export default function Page({params}) {
   const handleUpdateSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('https://vercel.com/thxsitdowns-projects/backend/api/users', {
+    const res = await fetch('https://backend-coral-iota.vercel.app/api/users', {
       method: 'PUT',
       headers: {
         Accept : 'application/json',
