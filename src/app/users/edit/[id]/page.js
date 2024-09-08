@@ -35,7 +35,7 @@ export default function Page({params}) {
   const handleUpdateSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('http://localhost:3001/api/users', {
+    const res = await fetch('https://vercel.com/thxsitdowns-projects/backend/api/users', {
       method: 'PUT',
       headers: {
         Accept : 'application/json',

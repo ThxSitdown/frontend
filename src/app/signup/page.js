@@ -11,7 +11,7 @@ export default function Page() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('http://localhost:3001/api/users', {
+    const res = await fetch('https://vercel.com/thxsitdowns-projects/backend/api/users', {
       method: 'POST',
       headers: {
         Accept : 'application/json',
